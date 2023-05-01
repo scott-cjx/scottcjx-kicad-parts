@@ -1,4 +1,4 @@
-(footprint "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (version 20211014) (generator pcbnew)
+(footprint "C_0603" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5F68FEEF)
   (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -12,7 +12,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 04586a44-0fbc-49f5-9bc9-2fd90d6faca4)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
     (effects (font (size 0.4 0.4) (thickness 0.06)))
     (tstamp 1e9a45de-ebb4-47bc-8910-932ee77a821d)
   )
