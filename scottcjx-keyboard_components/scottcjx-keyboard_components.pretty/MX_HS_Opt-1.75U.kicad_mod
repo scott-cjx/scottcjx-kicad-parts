@@ -1,4 +1,4 @@
-(footprint "MX_HS_Optional" (version 20211014) (generator pcbnew)
+(footprint "MX_HS_Opt-1.75U" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (fp_text reference "REF**" (at 0 8.5 unlocked) (layer "F.Fab")
@@ -9,9 +9,13 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 89dc9b0d-9c9e-4c6a-9001-7fbde03fd99b)
   )
-  (fp_text user "${REFERENCE}" (at 0 8.5 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 8.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 924f89a7-4aca-4907-a9a8-0b94cbd594ba)
+  )
+  (fp_text user "1.75U" (at 6.5 6 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)) (justify right))
+    (tstamp bddf3792-26f4-4fbf-a24d-7d0a1f7fa071)
   )
   (fp_line (start -6.35 -1.016) (end -6.35 -0.635) (layer "B.SilkS") (width 0.15) (tstamp 1cdf868d-825a-4d03-8300-05aeab40dbda))
   (fp_line (start 5.08 -6.985) (end -3.81 -6.985) (layer "B.SilkS") (width 0.15) (tstamp 2bee0224-003e-47b3-bd8d-7bf5ebea67a1))
@@ -58,7 +62,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KICAD_MAIN}/scottcjx-kicad-parts/scottcjx-keyboard_components/Packages3d/cherrymx-1U.step"
+  (model "${KICAD_MAIN}/scottcjx-kicad-parts/scottcjx-keyboard_components/Packages3d/cherrymx-1.75U.step"
     (offset (xyz 0 0 11.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

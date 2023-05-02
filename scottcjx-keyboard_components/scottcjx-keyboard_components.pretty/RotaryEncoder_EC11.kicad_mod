@@ -46,12 +46,7 @@
   (pad "MP" thru_hole rect (at 0 -5.6) (size 3.2 2) (drill oval 2.8 1.5) (layers *.Cu *.Mask) (tstamp fb5c326d-33d2-4f06-ad1b-af7de80ab720))
   (pad "S1" thru_hole circle (at 7 2.5) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 7d67148e-6a33-40ce-8b6b-e59f7dfe7253))
   (pad "S2" thru_hole circle (at 7 -2.5) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp e4806ec9-285f-4aec-99da-67ca111daa66))
-  (model "${KICAD6_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.wrl" hide
-    (offset (xyz -7.5 2.5 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "/home/s/W/Linux/kicad_projects/ext/EC11_ROTENC/EC11_Rotary_Encoder_Switched.wrl"
+  (model "${KICAD_MAIN}/scottcjx-kicad-parts/scottcjx-keyboard_components/Packages3d/EC11_Rotary_Encoder_Switched.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
